@@ -19,7 +19,11 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* 🧪 For testing and JSX support */
+    "types": ["vitest", "jest"],
+    "jsx": "react-jsx"
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "src/**/*.test.ts", "src/**/*.test.tsx"]
 }
