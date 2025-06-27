@@ -29,3 +29,29 @@ src/
 ├── setupTests.ts # Testing library setup
 vite.config.ts # Vite + Vitest config
 tsconfig.json # TypeScript config for app + tests
+
+
+---
+
+##  Key Features
+
+- React Functional Component with clean state logic
+- Fully reactive to parameter changes
+- Covers all edge cases: same value, varied, updates, external event handling
+- Unit tested using Vitest + Testing Library
+- Organized with professional Git workflow (feature branches + PRs)
+
+---
+
+##  Running Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development preview
+npm run dev
+
+# Run all tests
+npx vitest run
+
