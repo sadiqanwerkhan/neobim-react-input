@@ -1,1 +1,31 @@
-This will be added later
+# NeoBIM React Test Assignment
+
+This is a minimal, professional React + TypeScript application built to complete the NeoBIM frontend test assignment. It demonstrates a parameter input component that syncs with multiple selected CAD-like objects and handles updates gracefully.
+
+---
+
+## Task Overview
+
+Build a reusable input field in React that behaves as follows:
+
+- Displays the parameter of a single selected object
+- Displays the shared parameter of multiple objects if values are the same
+- Shows `***varies***` when values differ
+- Allows the user to update all selected objects by typing a new value
+- Reacts to external parameter change events (`parametersChanged`)
+
+---
+
+## Project Structure
+
+src/
+├── components/
+│ └── ParameterInput.tsx # Main input logic implementation
+├── types/
+│ └── IBaseObject.ts # Type definitions as per assignment
+├── tests/
+│ └── ParameterInput.test.tsx # Test cases covering all behaviors
+├── App.tsx # Demo setup with mock objects
+├── setupTests.ts # Testing library setup
+vite.config.ts # Vite + Vitest config
+tsconfig.json # TypeScript config for app + tests
