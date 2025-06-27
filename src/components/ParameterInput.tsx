@@ -13,7 +13,6 @@ const ParameterInput: React.FC<Props> = ({
   const [value, setValue] = useState("");
   const [isVaried, setIsVaried] = useState(false);
 
-  // Sync UI with selected objects
   useEffect(() => {
     if (selectedObjects.length === 0) {
       setValue("");
