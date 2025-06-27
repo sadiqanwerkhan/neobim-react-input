@@ -30,10 +30,9 @@ src/
 vite.config.ts # Vite + Vitest config
 tsconfig.json # TypeScript config for app + tests
 
-
 ---
 
-##  Key Features
+## Key Features
 
 - React Functional Component with clean state logic
 - Fully reactive to parameter changes
@@ -43,7 +42,7 @@ tsconfig.json # TypeScript config for app + tests
 
 ---
 
-##  Running Locally
+## Running Locally
 
 ```bash
 # Install dependencies
@@ -55,3 +54,15 @@ npm run dev
 # Run all tests
 npx vitest run
 
+
+Tests Included
+- Single object shows correct value
+
+- Multiple objects with same value show that value
+
+- Different values show ***varies***
+
+- Typing in input updates all objects
+
+- External parametersChanged events are handled
+```
